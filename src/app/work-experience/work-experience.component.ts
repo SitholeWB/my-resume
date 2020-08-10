@@ -9,9 +9,16 @@ export class WorkExperienceComponent implements OnInit {
   lexisnexisURL: string = "https://www.lexisnexis.co.za";
   derivcoURL: string = "https://www.derivco.co.za";
   astelURL: string = "http://astel.info";
+  refcheckURL: string = "https://www.refcheck.co.za";
+  expandCompany: string = "";
   constructor() { }
 
+
   ngOnInit(): void {
+  }
+
+  public toggleCompanyDetails(company: string) {
+    this.expandCompany = company;
   }
 
 }

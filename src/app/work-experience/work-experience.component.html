@@ -27,9 +27,48 @@
 
     <mat-card-content class="mdb-card-content-work-section">
 
-        <p>
-            Maintain and add new features to existing .Net Web applications.
-        </p>
+        <div *ngIf="expandCompany !=='lexisnexis'">
+            <p>
+                Maintain and add new features to existing .Net Web
+                applications.
+            </p>
+            <mat-chip-list>
+                <mat-chip color="accent" selected (click)="toggleCompanyDetails('lexisnexis')">More >></mat-chip>
+            </mat-chip-list>
+        </div>
+        <div *ngIf="expandCompany ==='lexisnexis'">
+            <div>
+                <h5>My main focus is on application called
+                    <a href={{refcheckURL}} target="_blank"> RefCheck
+                        <mdb-icon fas icon="external-link-alt"></mdb-icon>
+                    </a>
+                    , details below:
+                </h5>
+                <ul>
+                    <li>
+                        Lexis RefCheck enables recruitment agencies and employers to verify the personal details of a
+                        potential employee or candidate
+                        prior to offering employment. By improving transparency and disclosure, informed decisions can
+                        be made regarding
+                        one of the most important assets of an organization, its employees.
+                    </li>
+                    <li>
+                        <strong>Verifications offered by Lexis RefCheck:</strong> Criminal Records Checks, Credit
+                        Reports, Matric &
+                        Tertiary Qualification Verifications,
+                        ID Verifications & Fraud Listings, Driving Licences & Professional Driving Permit, and Fit &
+                        Proper and FAIS Comprehensive
+                        Checks.
+                    </li>
+                    <li> <strong>Technologies: </strong>C#, JavaScripts, ASP.Net, .Net Framework, SQL
+                        Server,WebForms,WCF,WinForms, HTML5.
+                    </li>
+                </ul>
+            </div>
+            <mat-chip-list>
+                <mat-chip color="accent" selected (click)="toggleCompanyDetails('')">Collapse &lt;&lt;</mat-chip>
+            </mat-chip-list>
+        </div>
     </mat-card-content>
 </mat-card>
 
@@ -63,16 +102,36 @@
 
 
     <mat-card-content class="mdb-card-content-work-section">
-
-        <p>
-            Maintain/Support and add new features to existing .Net Web
-            applications. Write/Re-write new Applications, usually backend.
-        </p>
+        <div *ngIf="expandCompany !=='derivco'">
+            <p>
+                Maintain/Support and add new features to existing .Net Web
+                applications. Write/Re-write new Applications, usually backend.
+            </p>
+            <mat-chip-list>
+                <mat-chip color="accent" selected (click)="toggleCompanyDetails('derivco')">More >></mat-chip>
+            </mat-chip-list>
+        </div>
+        <div *ngIf="expandCompany ==='derivco'">
+            <div>
+                <ul>
+                    <li>Maintain/Support and add new features to existing .NetWeb applications. Write/Re-write new
+                        Applications, usually backend.
+                    </li>
+                    <li> <strong>Technologies: </strong>Web APIs, Angular, .Net Core, C#, SQL Server, JavaScripts,
+                        ASP.Net MVC, .Net Framework,WebForms,
+                        HTML5.
+                    </li>
+                </ul>
+            </div>
+            <mat-chip-list>
+                <mat-chip color="accent" selected (click)="toggleCompanyDetails('')">Collapse &lt;&lt;</mat-chip>
+            </mat-chip-list>
+        </div>
     </mat-card-content>
 </mat-card>
 
 
-<!--------------------------------DERIVCO------------------------------------->
+<!--------------------------------Astel------------------------------------->
 
 <mat-card class="mdb-card-work-section">
     <mat-card-header class="mdb-card-header-work-section">
@@ -102,10 +161,35 @@
 
 
     <mat-card-content class="mdb-card-content-work-section">
-
-        <p>
-            Helping development team with integrating Silver light application
-            to ASP.NET MVC and HTML5.
-        </p>
+        <div *ngIf="expandCompany !=='astel'">
+            <p>
+                Helping development team with integrating Silver light application
+                to ASP.NET MVC and HTML5.
+            </p>
+            <mat-chip-list>
+                <mat-chip color="accent" selected (click)="toggleCompanyDetails('astel')">More >></mat-chip>
+            </mat-chip-list>
+        </div>
+        <div *ngIf="expandCompany ==='astel'">
+            <div>
+                <h5>My main focus is on application called Globill, details below:
+                </h5>
+                <ul>
+                    <li>
+                        Globill’s smart billing module allows the billing team to execute billing processes any time of
+                        day.
+                    </li>
+                    <li>
+                        Helping development team with integrating Silver light application to ASP.NET MVC and HTML5.
+                    </li>
+                    <li> <strong>Technologies: </strong>C#, JavaScripts, ASP.Net, .Net Framework, SQL Server, HTML5,
+                        SOAP.
+                    </li>
+                </ul>
+            </div>
+            <mat-chip-list>
+                <mat-chip color="accent" selected (click)="toggleCompanyDetails('')">Collapse &lt;&lt;</mat-chip>
+            </mat-chip-list>
+        </div>
     </mat-card-content>
 </mat-card>
