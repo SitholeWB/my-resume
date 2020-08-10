@@ -13,12 +13,16 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatListModule} from '@angular/material/list';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactSectionComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    AboutMeComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

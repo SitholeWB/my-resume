@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-work-experience',
-  templateUrl: './work-experience.component.html',
-  styleUrls: ['./work-experience.component.css']
+  selector: 'app-education',
+  templateUrl: './education.component.html',
+  styleUrls: ['./education.component.css']
 })
-export class WorkExperienceComponent implements OnInit {
-  lexisnexisURL: string = "https://www.lexisnexis.co.za";
+export class EducationComponent implements OnInit {
+
+  ukznURL: string = "https://ukzn.ac.za/";
   derivcoURL: string = "https://www.derivco.co.za";
   astelURL: string = "http://astel.info";
   refcheckURL: string = "https://www.refcheck.co.za";

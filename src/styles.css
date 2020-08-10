@@ -18,6 +18,13 @@ mdb-card {
     margin-bottom: 15px;
     background-color: white;
 }
+.work-section {
+    background-color: gray;
+}
+.mdb-card-header-background {
+    background-color: gray;
+}
+
 .mdb-card-work-section {
     background-color: white;
     margin-bottom: 10px;
