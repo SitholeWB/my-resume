@@ -6,7 +6,7 @@ import { ContactDetail } from '../models/contact-detail'
   styleUrls: ['./contact-section.component.css']
 })
 export class ContactSectionComponent implements OnInit {
-  folders: ContactDetail[] = [
+  contactItems: ContactDetail[] = [
     {
       description: '20 Jan 1992, South Africa, KwaZulu-Natal',
       icon: 'birthday-cake',
@@ -42,6 +42,21 @@ export class ContactSectionComponent implements OnInit {
       icon: 'twitter',
       iconType: 'fab',
       url: 'https://twitter.com/sitholewb'
+    },
+  ];
+
+  languageItems: ContactDetail[] = [
+    {
+      description: 'English',
+      icon: 'github',
+      iconType: 'fab',
+      url: ''
+    },
+    {
+      description: 'IsiZulu',
+      icon: 'twitter',
+      iconType: 'fab',
+      url: ''
     },
   ];
 
