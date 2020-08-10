@@ -12,11 +12,13 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatListModule} from '@angular/material/list';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
+import { WorkExperienceComponent } from './work-experience/work-experience.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContactSectionComponent
+    ContactSectionComponent,
+    WorkExperienceComponent
   ],
   imports: [
     BrowserModule,

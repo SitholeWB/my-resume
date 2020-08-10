@@ -27,8 +27,8 @@
   </div>
   <div class="col-sm-12 col-md-8 col-lg-8">
 
-    <mdb-card>
-      <mdb-card-header>ABOUT ME</mdb-card-header>
+    <mdb-card >
+      <mdb-card-header style="background-color: gray;">ABOUT ME</mdb-card-header>
       <mdb-card-body>
         <span *ngIf="!showFullCoverLetter">
           <mdb-card-text>
@@ -87,16 +87,11 @@
 
       </mdb-card-body>
     </mdb-card>
-    <mdb-card>
+    <mdb-card style="background-color: gray;">
       <mdb-card-header>EXPERIENCE</mdb-card-header>
-      <mdb-card-body>
-        <mdb-card-text>
-          Experienced Full Stack Developer with over 4 years in the industry and high-level proficiency in the following
-          programs: C#, Javascript, SQL, Java, Angular and React. I am very familiar and experienced with Web
-          Application Architecture and have worked with a good number of successful development teams.
-        </mdb-card-text>
-        <button mat-raised-button color="accent">Expand full cover letter >></button>
-      </mdb-card-body>
+
+      <app-work-experience></app-work-experience>
+
     </mdb-card>
   </div>
 </div>

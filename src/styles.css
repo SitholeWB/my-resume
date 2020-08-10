@@ -16,17 +16,23 @@ mdb-card-header {
 
 mdb-card {
     margin-bottom: 15px;
+    background-color: white;
+}
+.mdb-card-work-section {
+    background-color: white;
+    margin-bottom: 10px;
 }
 
-.quote {
-    display: block;
-    align-items: center;
-    align-self: center;
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 20px;
-    margin-left: 20px;
+.mdb-card-subtitle-work-section {
+    color: #747373;
+}
+
+.mdb-card-header-work-section, .mdb-card-content-work-section {
+    color: #747373;
+}
+
+.mat-divider-work-section{
+    background-color:#747373;
 }
 
 .resume-body {
@@ -36,13 +42,18 @@ mdb-card {
     margin-left: 20px;
 }
 
-.personal-section {
-    display: flex;
-    width: 30%;
+.lexisnexis-header-image {
+    background-image: url('/assets/lexisnexis.png');
+    background-size: cover;
 }
 
-.work-section {
-    display: flex;
-    width: 70%;
-    margin-left: 20px;
+.derivco-header-image {
+    background-image: url('/assets/derivco.png');
+    background-size: cover;
 }
+
+.astel-header-image {
+    background-image: url('/assets/astel.jpg');
+    background-size: cover;
+}
+
