@@ -1,6 +1,6 @@
 # my-resume
 
-<img src="src/assets/my-resume-pic.png" width="350" style="margin-right:5px; border: 1px solid #ccc;" />
+<img src="src/assets/resume-pic.png" width="350" style="margin-right:5px; border: 1px solid #ccc;" />
 
 Demo https://sitholewb.github.io/my-resume/
 
