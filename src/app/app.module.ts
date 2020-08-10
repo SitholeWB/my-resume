@@ -11,10 +11,12 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatListModule} from '@angular/material/list';
+import { ContactSectionComponent } from './contact-section/contact-section.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContactSectionComponent
   ],
   imports: [
     BrowserModule,
