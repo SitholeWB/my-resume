@@ -44,7 +44,7 @@ mdb-card {
     background-color: #747373;
 }
 
-.resume-body {
+.my-resume-body {
     width: 100%;
     display: flex;
     margin-right: 20px;
@@ -52,26 +52,26 @@ mdb-card {
 }
 
 .ukzn-header-image {
-    background-image: url('https://github.com/SitholeWB/resume/blob/master/src/assets/ukzn-logo.jpg?raw=true');
+    background-image: url('https://github.com/SitholeWB/my-resume/blob/master/src/assets/ukzn-logo.jpg?raw=true');
     background-size: cover;
 }
 
 .high-school-header-image {
-    background-image: url('https://github.com/SitholeWB/resume/blob/master/src/assets/dep-education.jpg?raw=true');
+    background-image: url('https://github.com/SitholeWB/my-resume/blob/master/src/assets/dep-education.jpg?raw=true');
     background-size: cover;
 }
 
 .lexisnexis-header-image {
-    background-image: url('https://github.com/SitholeWB/resume/blob/master/src/assets/lexisnexis.png?raw=true');
+    background-image: url('https://github.com/SitholeWB/my-resume/blob/master/src/assets/lexisnexis.png?raw=true');
     background-size: cover;
 }
 
 .derivco-header-image {
-    background-image: url('https://github.com/SitholeWB/resume/blob/master/src/assets/derivco.png?raw=true');
+    background-image: url('https://github.com/SitholeWB/my-resume/blob/master/src/assets/derivco.png?raw=true');
     background-size: cover;
 }
 
 .astel-header-image {
-    background-image: url('https://github.com/SitholeWB/resume/blob/master/src/assets/astel.jpg?raw=true');
+    background-image: url('https://github.com/SitholeWB/my-resume/blob/master/src/assets/astel.jpg?raw=true');
     background-size: cover;
 }

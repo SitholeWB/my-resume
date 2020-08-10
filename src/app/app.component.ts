@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'resume';
+  title = 'my-resume';
   showFullCoverLetter: boolean = false;
 
   public toggleCoverLetter() {
