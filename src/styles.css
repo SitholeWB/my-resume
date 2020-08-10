@@ -43,17 +43,17 @@ mdb-card {
 }
 
 .lexisnexis-header-image {
-    background-image: url('/assets/lexisnexis.png');
+    background-image: url('https://github.com/SitholeWB/resume/blob/master/src/assets/lexisnexis.png?raw=true');
     background-size: cover;
 }
 
 .derivco-header-image {
-    background-image: url('/assets/derivco.png');
+    background-image: url('https://github.com/SitholeWB/resume/blob/master/src/assets/derivco.png?raw=true');
     background-size: cover;
 }
 
 .astel-header-image {
-    background-image: url('/assets/astel.jpg');
+    background-image: url('https://github.com/SitholeWB/resume/blob/master/src/assets/astel.jpg?raw=true');
     background-size: cover;
 }
 
