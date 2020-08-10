@@ -18,9 +18,11 @@ mdb-card {
     margin-bottom: 15px;
     background-color: white;
 }
+
 .work-section {
     background-color: gray;
 }
+
 .mdb-card-header-background {
     background-color: gray;
 }
@@ -38,8 +40,8 @@ mdb-card {
     color: #747373;
 }
 
-.mat-divider-work-section{
-    background-color:#747373;
+.mat-divider-work-section {
+    background-color: #747373;
 }
 
 .resume-body {
@@ -47,6 +49,16 @@ mdb-card {
     display: flex;
     margin-right: 20px;
     margin-left: 20px;
+}
+
+.ukzn-header-image {
+    background-image: url('https://github.com/SitholeWB/resume/blob/master/src/assets/ukzn-logo.jpg?raw=true');
+    background-size: cover;
+}
+
+.high-school-header-image {
+    background-image: url('https://github.com/SitholeWB/resume/blob/master/src/assets/dep-education.jpg?raw=true');
+    background-size: cover;
 }
 
 .lexisnexis-header-image {
@@ -63,4 +75,3 @@ mdb-card {
     background-image: url('https://github.com/SitholeWB/resume/blob/master/src/assets/astel.jpg?raw=true');
     background-size: cover;
 }
-
