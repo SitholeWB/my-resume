@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+mdb-card-header {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+mdb-card {
+    margin-bottom: 15px;
+}
+
+.quote {
+    display: block;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.resume-body {
+    width: 100%;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.personal-section {
+    display: flex;
+    width: 30%;
+}
+
+.work-section {
+    display: flex;
+    width: 70%;
+    margin-left: 20px;
+}
